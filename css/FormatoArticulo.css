@@ -1,0 +1,33 @@
+
+body {
+	   background-color:#000000;
+	   font-family:"Comic Sans MS", cursive;
+	}
+
+a{color:#FFFFFF;}
+h1{
+	color:#FFFFFF;
+	text-align:center;
+}
+
+font{
+	text-align:center;
+	color:#66CCFF;
+	}
+	
+	
+
+
+
+img.clase1{
+	height:100;
+	width: 100;
+	border:0;
+	
+
+	}
+	
+img.clase2{
+	height: 280;
+	width: 230;
+}
