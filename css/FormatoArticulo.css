@@ -8,26 +8,44 @@ a{color:#FFFFFF;}
 h1{
 	color:#FFFFFF;
 	text-align:center;
-}
+   }
 
-font{
+
+	
+.LogosRedes{
+	height:100px;
+	width: 100px;
+	border:0;
+	}	
+	
+
+ .formato{
 	text-align:center;
 	color:#66CCFF;
+	font-size:36px;
+	}  
+   .centrado{
+	   text-align:center;
+	   }
+	.derecha{
+		text-align:right;
+		} 
+	 
+	   
+	.zoom{
+		height:280px;
+		width: 230px;
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
 	}
-	
-	
-
-
-
-img.clase1{
-	height:100;
-	width: 100;
-	border:0;
-	
-
+	.zoom:hover{
+		transform : scale(2);
+		-moz-transform : scale(2); /* Firefox */
+		-webkit-transform : scale(2); /* Chrome - Safari */
+		-o-transform : scale(2); /* Opera */
+		-ms-transform : scale(2); /* IE9 */
 	}
-	
-img.clase2{
-	height: 280;
-	width: 230;
-}
+   
+ 
