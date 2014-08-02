@@ -1,3 +1,34 @@
-@charset "utf-8";
-/* CSS Document */
 
+body {
+	background-color: #000;
+	}
+.formato2{
+	font-family: Comic Sans MS, cursive;
+	color:#FFF;
+	text-align:center;
+	}
+.tamaño{
+	width:25%;
+	background:#000;
+}
+.imagen{
+	width:100%;
+	height:329;
+}
+.centrado{
+	text-align:center;
+}
+.derecha{
+	text-align:right;
+}
+	@font-face {
+	font-family: "NomPag";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("estilos/infected.woff") format("woff"), url("estilos/infected.ttf") format("truetype");
+}
+.estilo1{font-family: NomPag;font-size: 85px;color:#3CF; text-align:center
+}
+
+.estilo2{font-family: StyloMenu;font-size: 28px;color:#F90; text-align:center
+}
