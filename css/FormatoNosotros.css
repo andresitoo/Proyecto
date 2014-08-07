@@ -1,0 +1,63 @@
+
+body {
+	   background-color:#000000;
+	   font-family:"Comic Sans MS", cursive;
+	   src:../Musica/nosotros/Pentakill - Smite and Ignite - 02 Deathfire Grasp.mp3;
+	}
+
+a{color:#FFFFFF;}
+
+h1{
+	color:#FFFFFF;
+	text-align:center;
+   }
+
+
+	
+.LogosRedes{
+	height:100px;
+	width: 100px;
+	border:0;
+	}	
+	
+
+ .formato{
+	font-family:"Comic Sans MS", cursive;
+	color:#66CCFF;
+	size="+2";
+	}  
+.formato2{
+	font-family:"Comic Sans MS", cursive;
+	color:#FF6600;
+	
+	size="+2";
+	}
+
+   .centrado{
+	   text-align:center;
+	   }
+	.derecha{
+		text-align:right;
+		} 
+	.zoom{
+		height:280px;
+		width: 230px;
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+	.zoom:hover{
+		transform : scale(2);
+		-moz-transform : scale(2); /* Firefox */
+		-webkit-transform : scale(2); /* Chrome - Safari */
+		-o-transform : scale(2); /* Opera */
+		-ms-transform : scale(2); /* IE9 */
+	}
+	
+	.estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center
+}
+
+.estilo2{font-family: StyloMenu;font-size: 28px;color:#F90; text-align:center
+}
+  
