@@ -19,6 +19,20 @@ h1{
 	width: 100px;
 	border:0;
 	}	
+	
+
+ .formato{
+	font-family:"Comic Sans MS", cursive;
+	color:#66CCFF;
+	size="+2";
+	}  
+.formato2{
+	font-family:"Comic Sans MS", cursive;
+	color:#FF6600;
+	
+	size="+2";
+	}
+
    .centrado{
 	   text-align:center;
 	   }
@@ -41,11 +55,9 @@ h1{
 		-ms-transform : scale(2); /* IE9 */
 	}
 	
-.estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center
+	.estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center
 }
+
 .estilo2{font-family: StyloMenu;font-size: 28px;color:#F90; text-align:center
 }
-.estilo3{font-family: TexStyle;font-size: 30px;color:#CCC; text-align:center
-}
-.estilo4{font-family: TexStyle;font-size: 24px;color:#0CF; text-align:center
-}
+  
