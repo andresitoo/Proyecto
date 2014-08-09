@@ -1,0 +1,61 @@
+.box { float: left; }
+#root { max-width: 1400px; margin: 0 auto; }
+
+#box1 { width: 25%; }
+#box2 { width: 50%; }
+#box3 { width: 25%; }
+#box4 { width: 100%; }
+#box5 { width: 100%; }
+#box6 { width: 23.09375%; }
+#box7 { width: 59.703125%; }
+#box8 { width: 17.203125%; }
+
+
+/* Laptop/Tablet (1024px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
+	#box3 { width: 100%; }
+	#box4 { width: 100%; }
+	#box5 { width: 100%; }
+	#box6 { width: 100%; }
+	#box7 { width: 100%; }
+	#box8 { width: 100%; }
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
+	#box3 { width: 100%; }
+	#box4 { width: 100%; }
+	#box5 { width: 100%; }
+	#box6 { width: 100%; }
+	#box7 { width: 100%; }
+	#box8 { width: 100%; }
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
+	#box3 { width: 100%; }
+	#box4 { width: 100%; }
+	#box5 { width: 100%; }
+	#box6 { width: 100%; }
+	#box7 { width: 100%; }
+	#box8 { width: 100%; }
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+	#box1 { width: 100%; }
+	#box2 { width: 100%; }
+	#box3 { width: 100%; }
+	#box4 { width: 100%; }
+	#box5 { width: 100%; }
+	#box6 { width: 100%; }
+	#box7 { width: 100%; }
+	#box8 { width: 100%; }
+}
+
