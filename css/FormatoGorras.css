@@ -1,6 +1,6 @@
 
 body {
-	   background-color:#000;
+	   background-color:#000000;
 	   font-family:"Comic Sans MS", cursive;
 	}
 
@@ -35,22 +35,26 @@ h1{
 	.zoom{
 		height:280px;
 		width: 230px;
-		transition: 1.5s ease;
- 		-moz-transition: 1.5s ease; /* Firefox */
- 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
- 		-o-transition: 1.5s ease; /* Opera */
-	}
+		transition: 1s ease;
+ 		-moz-transition: 1s ease; /* Firefox */
+ 		-webkit-transition: 1s ease; /* Chrome - Safari */
+ 		-o-transition: 1s ease; /* Opera */
+		border:1px solid #fff;
+		padding:10px;
+ 		
+		}
 	.zoom:hover{
-		transform : scale(2);
-		-moz-transform : scale(2); /* Firefox */
-		-webkit-transform : scale(2); /* Chrome - Safari */
-		-o-transform : scale(2); /* Opera */
-		-ms-transform : scale(2); /* IE9 */
-	}
-  .estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center
-} 
- 
- .estilo2{font-family: StyloMenu;font-size: 28px;color:#F90; text-align:center
+		transform : scale(1.25);
+		-moz-transform : scale(1.25); /* Firefox */
+		-webkit-transform : scale(1.25); /* Chrome - Safari */
+		-o-transform : scale(1.25); /* Opera */
+		-ms-transform : scale(1.25); /* IE9 */
+		-webkit-box-shadow:0px 0px 30px #ccc;
+	    }	
+	
+.estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center;
 }
-.estilo3{font-family: TexStyle;font-size: 42px;color:#CCC; text-align:center
+.estilo2{font-family: StyloMenu;font-size: 28px;color:#F90; text-align:center;
+}
+.estilo3{font-family: TexStyle;font-size: 42px;color:#CCC; text-align:center;
 }
