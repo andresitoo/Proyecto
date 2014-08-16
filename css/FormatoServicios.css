@@ -46,10 +46,12 @@ h1{
 		-o-transform : scale(2); /* Opera */
 		-ms-transform : scale(2); /* IE9 */
 	}
-	.estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center
+.estilo1{font-family: Titulo;font-size: 80px;color:#0CF; text-align:center
 }
 .estilo2{font-family: StyloMenu;font-size: 28px;color:#F90; text-align:center
 }
 .estilo3{font-family: TexStyle;font-size: 30px;color:#CCC; text-align:center
+}
+.estilo4{font-family: Titulo;font-size: 50px;color:#0CF; text-align:center
 }
   
