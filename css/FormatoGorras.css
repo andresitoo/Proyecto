@@ -33,8 +33,8 @@ h1{
 	 
 	   
 	.zoom{
-		height:280px;
-		width: 230px;
+		height:200px;
+		width: 180px;
 		transition: 1s ease;
  		-moz-transition: 1s ease; /* Firefox */
  		-webkit-transition: 1s ease; /* Chrome - Safari */
