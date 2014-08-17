@@ -4,7 +4,9 @@ body {
 	   font-family:"Comic Sans MS", cursive;
 	   src:../Musica/nosotros/Pentakill - Smite and Ignite - 02 Deathfire Grasp.mp3;
 	}
-
+.Coloralternativo {
+	color: #000;
+}
 a{color:#FFFFFF;}
 
 h1{
