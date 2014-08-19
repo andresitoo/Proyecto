@@ -1,5 +1,5 @@
 .box { float: left; }
-#root { max-width: 1400px; margin: 0 auto; }
+#root { max-width: 1400%; margin: 0 auto; }
 
 #box1 { width: 25%; }
 #box2 { width: 50%; }
