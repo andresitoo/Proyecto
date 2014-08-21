@@ -1,0 +1,55 @@
+.img{
+ float:none;
+ -webkit-transition: 0.5s;
+ }
+.img {
+ border:1px solid #fff;
+}
+.img:hover{
+ -webkit-transform:scale(0.8);
+ -webkit-box-shadow:0px 0px 30px #ccc;
+}
+.img .mask{
+ width: 55%;
+ background-color: rgb(0, 0, 0);
+ position: absolute;
+ height: 47%;
+ opacity:0.6;
+ cursor:pointer;
+ -webkit-transition: 0.5s;
+}
+#img-4:hover .mask{
+ margin-left:219px;
+ margin-top:135px;
+ height:0%;
+ width:0%;
+}
+
+#img-5:hover .mask{
+ margin-left:140px;
+ margin-top:80px;
+ height:0%;
+ width:0%;
+ -webkit-transform: rotateX(360deg);
+}
+	.zoom{
+		height:280px;
+		width: 230px;
+		transition: 1s ease;
+ 		-moz-transition: 1s ease; 
+ 		-webkit-transition: 1s ease; 
+ 		-o-transition: 1s ease; 
+		border:1px solid #fff;
+		padding:10px;
+ 		
+		}
+	.zoom:hover{
+		transform : scale(1.25);
+		-moz-transform : scale(1.25); 
+		-webkit-transform : scale(1.25); 
+		-o-transform : scale(1.25); 
+		-ms-transform : scale(1.25); 
+		-webkit-box-shadow:0px 0px 30px #ccc;
+	    }	
+
+
