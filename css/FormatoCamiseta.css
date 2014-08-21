@@ -60,3 +60,28 @@ h1{
 }
 .estilo4{font-family: Titulo;font-size: 50px;color:#0CF; text-align:center
 }
+.imageness{
+	
+	width:100%;
+	height:281px;
+}
+
+	@font-face {
+	font-family: "Titulo";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../estilos/infected.woff") format("woff"), url("../estilos/infected.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "StyloMenu";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../estilos/assassin.woff") format("woff"), url("../estilos/assassin.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TexStyle";
+	font-style: normal;
+	font-weight: normal;
+	src: local("?"), url("../estilos/kratos.woff") format("woff"), url("../estilos/kratos.ttf") format("truetype");
+}
